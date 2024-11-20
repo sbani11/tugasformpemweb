@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Pramudi Transjakarta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo Transjakarta -->
+        <div class="logo">
+            <img src="C:\Users\ynurb\Documents\PEMROGRAMAN WEB\11 november\logo-transjakarta.png" alt="Logo Transjakarta" width="400" >
+        </div>
+        <!-- Judul Form -->
+        <h1>Pendaftaran Pramudi Transjakarta</h1>
+        <!-- Form Pendaftaran -->
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Nama Lengkap:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Nomor Telepon:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="birthdate">Tanggal Lahir:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="ktp">Upload KTP:</label>
+                <input type="file" id="ktp" name="ktp" accept=".jpg,.png,.pdf" required>
+            </div>
+            <div class="form-group">
+                <label for="sim">Upload SIM B1:</label>
+                <input type="file" id="sim" name="sim" accept=".jpg,.png,.pdf" required>
+            </div>
+            <div class="form-group">
+                <label for="bnsp">Upload Sertifikasi BNSP:</label>
+                <input type="file" id="bnsp" name="bnsp" accept=".jpg,.png,.pdf" required>
+            </div>
+            <div class="form-group">
+                <label for="ijazah">Upload Ijazah:</label>
+                <input type="file" id="ijazah" name="ijazah" accept=".jpg,.png,.pdf" required>
+            </div>
+            <button type="submit">Daftar</button>
+        </form>
+    </div>
+</body>
+</html>
